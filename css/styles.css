@@ -9,7 +9,6 @@ body {
   background-color: #ff4c68;
   color: #fff;
   text-align: left;
-  /* padding-right: 15px; */
 }
 
 #title .container-fluid
@@ -122,8 +121,6 @@ p {
 
 }
 
-.carousel-item {
-}
 
 .testimonial-image {
   width: 10%;
@@ -186,9 +183,14 @@ p {
   margin: 1% 0;
 }
 
+.copyright a {
+  color: #141414;
+}
+
 
 /* Media Query Section */
 
+/* for mobile screen */
 @media (max-width: 1030px)
 {
   #title {
@@ -200,6 +202,7 @@ p {
   }
 }
 
+ /* for wide desktop */
 @media (min-width: 2000px)
 {
   .title-image {
@@ -214,6 +217,7 @@ p {
     width: 40%;
     transform: rotate(45deg);
   }
+
 }
 
 @media (min-width: 1030px) and (max-width: 1420px)
@@ -222,8 +226,3 @@ p {
     font-size: x-large;
   }
 }
-
-/*  ****** angela's solution ********
- .feature-box {
-  text-align: center;
-}  */
